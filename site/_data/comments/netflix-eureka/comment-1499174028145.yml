@@ -1,0 +1,7 @@
+_id: 9d49c310-60ba-11e7-99bd-15afbde522e0
+message: "I think there are something wrong. \r\n\r\n1. `eureka.client.instanceInfoReplicationIntervalSeconds` does not affect to renew threshold value rather `leaseRenewalIntervalInSeconds` affects to it.\r\n\r\nBecause as you stated above, renew interval only depends on leaseRenewalIntervalInSeconds and instanceInfoReplicationIntervalSeconds only affects to interval of registration. \r\n\r\n2. There is no code for `Spring adds a lower minimum of 1`.\r\n\r\nWhen I tested with 2 eureka client then I got 3 renew threshold \r\n,and tested with 2 then got 6 renew threshold.  \r\ncodes are just as below\r\n\r\n```\r\nthis.expectedNumberOfRenewsPerMin = count * 2;\r\n        this.numberOfRenewsPerMinThreshold =\r\n                (int) (this.expectedNumberOfRenewsPerMin * serverConfig.getRenewalPercentThreshold());\r\n```"
+name: Luke Bae
+email: 800ec63a235b2da0d86b7e2a2fd354d8
+url: ''
+hidden: ''
+date: '2017-07-04T13:13:48.143Z'

@@ -1,0 +1,11 @@
+_id: 29c9b210-40b2-11e7-8ca6-5700fc8d9c14
+message: >-
+  Hi Abhijit, Nice article!!! I have a question, have you come across any way to
+  register context path on Eureka Server. I don't find any documentation
+  anywhere. Adding context-path in metadata is fine but don't know if it gets
+  resolved  from eureka server as part of service endpoint.
+name: Rakesh
+email: fa61ba3e90ed1598ee766213958abbd2
+url: ''
+hidden: ''
+date: '2017-05-24T18:52:41.118Z'

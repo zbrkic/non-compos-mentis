@@ -1,0 +1,7 @@
+_id: 7bb41190-356f-11e7-8726-1db4d0eaafc8
+message: "Hi , thanks for the post. I would like to ask if the cloud config support dynamic key lookup ? e.g.  if I want to use the git config as error message properties, the key will be dynamically determined by business logic.  But so far I can see the example only show me how to retrieve property statically using @value annotation. Do you have idea on this ?\r\nTHanks a lot."
+name: William
+email: 10d78ea016023afd997c915a40ea08cd
+url: ''
+hidden: ''
+date: '2017-05-10T10:57:39.550Z'

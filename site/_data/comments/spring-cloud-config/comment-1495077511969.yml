@@ -1,0 +1,13 @@
+_id: ab631080-3b78-11e7-8704-83de33e5d04d
+message: >-
+  @William, as I mentioned, the config server always pulls from Git in response
+  to a request. It's up to the client how to utilize that feature and strike a
+  balance between dynamism and performance. Messages are not likely to change so
+  often that you'd need to look up for every request. There are various options,
+  which are beyond the scope of discussion here. Feel free to contact me by
+  email (found on the home page) if you've further questions.
+name: Abhijit Sarkar
+email: 208dd608a22ccc893cca311ba02522e6
+url: 'http://blog.abhijitsarkar.org/'
+hidden: ''
+date: '2017-05-18T03:18:31.966Z'
