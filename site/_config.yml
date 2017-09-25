@@ -19,7 +19,7 @@ name                     : &name "Abhijit Sarkar"
 description              : "thoughts().random()"
 url                      : "https://blog.abhijitsarkar.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "asarkar/asarkar.gitlab.io"
+repository               : "asarkar/non-compos-mentis"
 teaser                   : "/assets/images/teaser.jpg"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
