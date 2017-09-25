@@ -7,8 +7,8 @@ If you are the curious type, check out the [About](site/about.md) page.
 ## Tech
 Local `docker-compose.yml`:
 ```
-docker build -t asarkar/non-compos-mentis . && \
-  docker-compose up -d
+docker build -f docker/Dockerfile -t asarkar/non-compos-mentis . && \
+  docker-compose -f docker/docker-compose.yml up -d
 ```
 
 Remote `docker-compose.yml`:
