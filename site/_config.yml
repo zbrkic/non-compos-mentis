@@ -17,7 +17,7 @@ title                    : "Non Compos Mentis"
 title_separator          : "-"
 name                     : &name "Abhijit Sarkar"
 description              : "thoughts().random()"
-url                      : "https://blog.abhijitsarkar.org"
+url                      : "https://blog.asarkar.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "asarkar/non-compos-mentis"
 teaser                   : "/assets/images/teaser.jpg"
@@ -84,7 +84,7 @@ author:
   avatar           :  "/assets/images/bio-photo2.jpg"
   bio              :  "Software engineer. Photographer. Rarely pain in the ass."
   location         :  "Somewhere"
-  email            :  "contact@abhijitsarkar.org"
+  email            :  "contact@asarkar.org"
   uri              :
   bitbucket        :
   codepen          :

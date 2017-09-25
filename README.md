@@ -1,4 +1,4 @@
-# [Non Compos Mentis](https://blog.abhijitsarkar.org)
+# [Non Compos Mentis](https://blog.asarkar.org)
 
 *Non Compos Mentis* (latin) is the legal term meaning "not of sound mind". It is my awesome blog where I talk about everything under the sun, more specifically about technology and perhaps on good days, photography.
 
@@ -27,14 +27,14 @@ docker run -it --entrypoint=sh certbot/certbot
 ```
 certbot certonly --manual --agree-tos \
 --email <email> --rsa-key-size 4096 \
--d blog.abhijitsarkar.org
+-d blog.asarkar.org
 ```
 > Say No to the first question that asks for permission for sharing your email. Answer Yes to the second question asking for permission to log your IP publicly.
 
 3. View the certificate and private key
 ```
-cat /etc/letsencrypt/live/blog.abhijitsarkar.org/fullchain.pem
-cat /etc/letsencrypt/live/blog.abhijitsarkar.org/privkey.pem
+cat /etc/letsencrypt/live/blog.asarkar.org/fullchain.pem
+cat /etc/letsencrypt/live/blog.asarkar.org/privkey.pem
 ```
 ## License
 
