@@ -16,6 +16,8 @@ Remote `docker-compose.yml`:
 curl -sSL <URL> | docker-compose -f - up -d
 ```
 
+Go to localhost:4000 once the container starts up.
+
 Get SSL Cert:
 
 1. Run Certbot Docker image

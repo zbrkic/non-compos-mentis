@@ -2,6 +2,7 @@ version: "3.3"
 services:
   blog:
     image: "asarkar/non-compos-mentis"
+    container_name: blog
     ports:
       - "4000:4000"
     logging:
