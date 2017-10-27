@@ -7,9 +7,9 @@ tags: [technical, java, couchbase, kubernetes]
 
 ## Introduction
 
-With the paradigm shift towards Microservices and Cloud-Native architecture (whether everyone is doing it right is another topic though), containers have become almost synonymous with those terms. Given that Kubernetes is a "Production-Grade Container Orchestration" (their words), and with features like horizontal scaling, self-healing, and storage orchestration, it is only natural that we are discussing running a database on Kubernetes. In this post, I discuss running a Couchbase cluster on Kubernetes. I assume familiarity with both Couchbase and Kubernetes, as well as [RxJava](https://github.com/ReactiveX/RxJava) and [Hystrix](https://github.com/Netflix/Hystrix), all of which are required for the rest of this write-up.
+With the paradigm shift towards Microservices and Cloud-Native architecture (whether everyone is doing it right is another topic though), containers have become almost synonymous with those terms. Given that Kubernetes is a "Production-Grade Container Orchestration" (their words), and with features like horizontal scaling, self-healing, and storage orchestration, it is only natural that we are discussing running a database as a container on Kubernetes. In this post, I discuss running a Couchbase cluster on Kubernetes. I assume familiarity with both Couchbase and Kubernetes, as well as [RxJava](https://github.com/ReactiveX/RxJava) and [Hystrix](https://github.com/Netflix/Hystrix), all of which are required for the rest of this write-up.
 
-From now on, I will refer to Couchbase as _CB_, the Couchbase client application as the _client_, and Kubernetes as _K8S_.
+From now on, I will refer to the Couchbase server as _CB_, the Couchbase client application as the _client_, and Kubernetes as _K8S_.
 
 {: .notice--warning}
 This is not a meant to be a recipe for running a highly-available, fully-redundant, multi-node CB cluster on K8S in Production. As of this writing, CB does not officially support running on K8S. This is a narrative of my experiences and learnings; YMMV and most likely will.
@@ -27,7 +27,7 @@ We want to run a CB cluster on K8S, and must support the following use cases:
 
 We will not discuss the following:
 * Multi-node CB cluster.
-* Failover](https://developer.couchbase.com/documentation/server/current/clustersetup/failover.html).
+* [Failover](https://developer.couchbase.com/documentation/server/current/clustersetup/failover.html).
 
 ## Architecture
 
@@ -39,7 +39,9 @@ Now that we have laid out the basics, let's analyze each item of the problem sta
 
   > What do you think is most needed to handle CB connection failure at startup?
 
-  The answer is flippantly simple: Do not initialize CB connection at startup. When do we do it then? Umm, perhaps on the first request? That could work but the CB cluster and bucket opening are time-consuming operations, so unless we could tell the client "_hey you are the lucky one to make the first request; please wait while we get our s\*\*t together_", we needed to find another way. It is the right idea, but we need a better implementation. We want to decouple the CB initialization from the request thread, and if at any time during the request we find CB not initialized, we start the initialization process on a separate thread while immediately failing the CB request. We also want to attempt initialization during the application startup, on a separate thread of course, which if successful, will mean that the first request will find a CB connection ready to be used. However, if the initialization fails during the startup, we do not want hundreds or thousands of subsequent requests to flood the CB server; we need to throttle the traffic, as well as put a sleep time between failures, should there be any. We need _Hystrix_.
+  The answer is flippantly simple: Do not initialize CB connection at startup. When do we do it then? Umm, perhaps on the first request? That could work but the CB cluster and bucket opening are time-consuming operations, so unless we could tell the client "_hey you are the lucky one to make the first request; please wait while we get our s\*\*t together_", we needed to find another way. It is the right idea, but we need a better implementation.
+  
+  We want to decouple the CB initialization from the request thread, and if at any time during the request we find CB connection not initialized, we start the initialization process on a separate thread while immediately failing the CB request. We also want to attempt initialization during the application startup, on a separate thread of course, which if successful, means that the first request will find a CB connection ready to be used. However, if the initialization fails during the startup, we do not want hundreds or thousands of subsequent requests to flood the CB server; we need to throttle the traffic, as well as put a sleep time between failures, should there be any. We need _Hystrix_.
 
   Good thing is that the CB [Java client SDK](https://github.com/couchbase/couchbase-java-client) fully supports RxJava, and so does Hystrix, so they fit like peas in a pod.
 
@@ -47,7 +49,7 @@ Now that we have laid out the basics, let's analyze each item of the problem sta
 
 * **Degraded Response**
 
-  I already touched upon this in the previous section. If at any time during the request we find CB not initialized, we immediately fail the CB request. The client handles the exception, and returns a successful response without CB data. If, however, CB had been initialized but later becomes available, then the CB request blocks until it times out. As long as the CB request timeout is less than the HTTP request timeout, the caller receives a slightly delayed, but successful response.
+  I already touched upon this in the previous section. If at any time during the request we find CB connection not initialized, we immediately fail the CB request. The client handles the exception, and returns a successful response without CB data. If, however, CB connection had been initialized but later dropped, then the CB request blocks until it times out. As long as the CB request timeout is less than the HTTP request timeout, the caller receives a slightly delayed, but successful response.
 
 * **Client Reconnection**
 
@@ -95,7 +97,7 @@ If you are using [Spring 5 WebFlux](https://docs.spring.io/spring/docs/5.0.1.REL
 Couchbase Java client SDK has a [CouchbaseAsyncRepository](https://github.com/couchbase/couchbase-java-client/blob/master/src/main/java/com/couchbase/client/java/repository/CouchbaseAsyncRepository.java), but since it requires an `AsyncBucket` for instantiation, it was not useful to me.
 
 {: .notice--warning}
-If the CB cluster is not reachable during bootstrap, the CB SDK client goes crazy and keeps trying to connect to the server; the class that does this is `ConfigEndpoint` and as of this writing, there's no limit to how many times it tries before giving up. This is a felony offense if you ask me: It floods the logs with `java.net.ConnectException: Connection refused` errors. However, reconnection attempts after a successful connection had been established but later dropped can somewhat be configured using the [client settings](https://developer.couchbase.com/documentation/server/current/sdk/java/client-settings.html).
+If the CB cluster is not reachable during bootstrap, the CB SDK client goes crazy and keeps trying to connect to the server; the class that does this is `AbstractEndpoint` and as of this writing, there's no limit to how many times it tries before giving up. This is a felony offense if you ask me: It floods the logs with `java.net.ConnectException: Connection refused` errors. However, reconnection attempts after a successful connection had been established but later dropped can somewhat be configured using the [client settings](https://developer.couchbase.com/documentation/server/current/sdk/java/client-settings.html).
 
 ### CB Server
 
@@ -117,7 +119,7 @@ And from CB docs for [Managing Connections](https://developer.couchbase.com/docu
 I initially assumed that the prefix `couchbase` was only an example, and could be any string as long as the FQN is a DNS SRV name. That is not the case; it is not at all difficult to make it configurable in the [CouchbaseEnvironment](https://github.com/couchbase/couchbase-java-client/blob/master/src/main/java/com/couchbase/client/java/env/CouchbaseEnvironment.java), but the CB guys decided to hard code the `couchbase` prefix instead.
 
 {: .notice--info}
-If the CB client is running in the same K8S namespace, only `cb-svc` can be used with it without requiring the FQN.
+If the CB client is running in the same K8S namespace, only `cb-svc` can be used without requiring the FQN.
 
 Last but not the least, data persistence. After all, what good is a database that cannot persist data? Luckily, `StatefulSet` has first-class support for [Stable Storage](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/#stable-storage). Since we are running a single-node CB cluster on a dedicated K8S node, we chose to go with a [hostPath](https://kubernetes.io/docs/concepts/storage/volumes/#hostpath). We did try [GlusterFS](https://www.gluster.org/) once, but it did not perform well under load, and we did not see the return on investment in fine-tuning it. In the future, if we loosen the restriction to run CB on a single K8S node, we can easily repopulate the data in a short time. For the period the data would not be available, the client would continue to return a degraded response.
 
@@ -128,5 +130,5 @@ There is a gotcha is with configuring the K8S Liveliness and Readiness Probes. W
 
 ## Conclusion
 
-Like I mentioned in the beginning, CB does not officially support running on K8S. They say they are [working on it](https://blog.couchbase.com/couchbase-openshift-enterprise-kubernetes-developer-preview-available/), but not much details have been made available. There also exists an [official blog](https://blog.couchbase.com/couchbase-on-kubernetes/), but it falls short of addressing the issues discussed in this article. In order to be a first-class K8S citizen, CB has to support effortless scaling up and down, which means adding and removing nodes, without the need for manual intervention, and step up their failover game. Data replication/migration when nodes are added or removed also needs to be handled transparent to the clients.
+Like I mentioned in the beginning, CB does not officially support running on K8S. They say they are [working on it](https://blog.couchbase.com/couchbase-openshift-enterprise-kubernetes-developer-preview-available/), but not much details have been made available. There also exists an [official blog](https://blog.couchbase.com/couchbase-on-kubernetes/), but it falls short of addressing the issues discussed in this article. In order to be a first-class K8S citizen, CB has to support effortless scaling up and down, which means adding and removing nodes without the need for manual intervention, and step up their failover game. Data replication/migration when nodes are added or removed also needs to be handled transparent to the clients.
 While time will tell the future of CB server on K8S, I do not see why, with some effort, the client solution here cannot be incorporated in the CB Java client SDK; I intend to approach them with that proposal, such that other people can also benefit from my effort and learning.
