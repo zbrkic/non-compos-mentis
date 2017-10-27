@@ -39,7 +39,7 @@ Now that we have laid out the basics, let's analyze each item of the problem sta
 
   > What do you think is most needed to handle CB connection failure at startup?
 
-  The answer is flippantly simple: Do not initialize CB connection at startup. When do we do it then? Umm, perhaps on the first request? That could work but the CB cluster and bucket opening are time-consuming operations, so unless we could tell the client "_hey you are the lucky one to make the first request; please wait while we get our s\*\*t together_", we needed to find another way. It is the right idea, but we need a better implementation.
+  The answer is flippantly simple: Do not initialize CB connection at startup. When do we do it then? Umm, perhaps on the first request? That could work but the CB cluster and bucket opening are time-consuming operations, so unless we could tell the client "_hey, you are the lucky one to make the first request; please wait while we get our s\*\*t together_", we needed to find another way. It is the right idea, but we need a better implementation.
   
   We want to decouple the CB initialization from the request thread, and if at any time during the request we find CB connection not initialized, we start the initialization process on a separate thread while immediately failing the CB request. We also want to attempt initialization during the application startup, on a separate thread of course, which if successful, means that the first request will find a CB connection ready to be used. However, if the initialization fails during the startup, we do not want hundreds or thousands of subsequent requests to flood the CB server; we need to throttle the traffic, as well as put a sleep time between failures, should there be any. We need _Hystrix_.
 
