@@ -40,7 +40,7 @@ Now that we have laid out the basics, let's analyze each item of the problem sta
   > What do you think is most needed to handle CB connection failure at startup?
 
   The answer is flippantly simple: Do not initialize CB connection at startup. When do we do it then? Umm, perhaps on the first request? That could work but the CB cluster and bucket opening are time-consuming operations, so unless we could tell the client "_hey, you are the lucky one to make the first request; please wait while we get our s\*\*t together_", we needed to find another way. It is the right idea, but we need a better implementation.
-  
+
   We want to decouple the CB initialization from the request thread, and if at any time during the request we find CB connection not initialized, we start the initialization process on a separate thread while immediately failing the CB request. We also want to attempt initialization during the application startup, on a separate thread of course, which if successful, means that the first request will find a CB connection ready to be used. However, if the initialization fails during the startup, we do not want hundreds or thousands of subsequent requests to flood the CB server; we need to throttle the traffic, as well as put a sleep time between failures, should there be any. We need _Hystrix_.
 
   Good thing is that the CB [Java client SDK](https://github.com/couchbase/couchbase-java-client) fully supports RxJava, and so does Hystrix, so they fit like peas in a pod.
@@ -89,6 +89,9 @@ beerRepository.findOne(id)
 ```
 
 The complete [CB client library](https://github.com/asarkar/spring/tree/master/beer-demo/couchbase-lib/src) code is on my GitHub, as well the [client app](https://github.com/asarkar/spring/tree/master/beer-demo/couchbase-client/src) that uses it.
+
+{: .notice}
+It appears that with CB server 5, the client holds on to the previously established but now invalid connections longer. To counter this, we set the "Socket Keepalive ErrorThreshold" = 1 for the [CB client](https://developer.couchbase.com/documentation/server/current/sdk/java/client-settings.html).
 
 {: .notice}
 If you are using [Spring 5 WebFlux](https://docs.spring.io/spring/docs/5.0.1.RELEASE/spring-framework-reference/web-reactive.html#spring-webflux), you can go completely non-blocking and return a Reactive Streams [Publisher](https://github.com/reactive-streams/reactive-streams-jvm#1-publisher-code). That is a topic for another day.
