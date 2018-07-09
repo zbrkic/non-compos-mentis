@@ -40,4 +40,4 @@ cat /etc/letsencrypt/live/blog.asarkar.org/privkey.pem
 ```
 ## License
 
-Copyright 2016-2017 Abhijit Sarkar - Released under the [GPLv3](LICENSE) license.
+Copyright 2016-2018 Abhijit Sarkar - Released under the [GPLv3](LICENSE) license.
