@@ -7,16 +7,15 @@ If you are the curious type, check out the [About](site/about.md) page.
 ## Tech
 Local `docker-compose.yml`:
 ```
-docker build -f docker/Dockerfile -t asarkar/non-compos-mentis . && \
-  docker-compose -f docker/docker-compose.yml up -d
+docker-compose -f docker/docker-compose.yml up --build -d
 ```
+
+Go to localhost:4000 once the container starts up.
 
 Remote `docker-compose.yml`:
 ```
 curl -sSL <URL> | docker-compose -f - up -d
 ```
-
-Go to localhost:4000 once the container starts up.
 
 Get SSL Cert:
 

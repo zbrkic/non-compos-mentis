@@ -82,7 +82,7 @@ analytics:
 author:
   name             :  *name
   avatar           :  "/assets/images/bio-photo2.jpg"
-  bio              :  "Software engineer. Photographer. Rarely pain in the ass."
+  bio              :  "Software engineer. Photographer. Usually nice guy."
   location         :  "Somewhere"
   email            :  "contact@asarkar.org"
   uri              :
@@ -138,6 +138,8 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -185,7 +187,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-archives
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -194,13 +196,12 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-archives
+  - jekyll-include-cache
 
 
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-type:                 jekyll-archives
 #  Path (examples)
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
@@ -208,22 +209,11 @@ type:                 jekyll-archives
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
-  type:               jekyll-archives
-  path:               /categories/
+  type: liquid
+  path: /categories/
 tag_archive:
-  type:               jekyll-archives
-  path:               /tags/
-# https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category:         archive-taxonomy
-    tag:              archive-taxonomy
-  permalinks:
-    category:         /categories/:name/
-    tag:              /tags/:name/
+  type: liquid
+  path: /tags/
 
 
 # HTML Compression
@@ -232,6 +222,7 @@ compress_html:
   clippings:          all
   ignore:
     envs:             development
+
 
 defaults:
   # _posts
