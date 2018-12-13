@@ -4,7 +4,7 @@ services:
     image: "jekyll/jekyll:3.8"
     container_name: blog
     working_dir: /srv/jekyll
-    command: ["sh","-c", "bundle install && bundle exec jekyll serve --host 0.0.0.0 --force_polling --incremental --drafts -d public"]
+    command: ["sh","-c", "bundle install && bundle exec jekyll serve --host 0.0.0.0 --force_polling --incremental --drafts --trace -d public"]
     ports:
       - "4000:4000"
     volumes:

@@ -1,4 +1,4 @@
-# main links links
+# main links
 main:
   - title: "About"
     url: /about.html
@@ -6,5 +6,37 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
+  - title: "Collections"
+    url: /collections/
   - title: "Years"
     url: /years/
+
+algorithms-design-analysis:
+  - title: "Algorithms: Design and Analysis"
+    children:
+      - title: "About This Course"
+        url: /algorithms-design-analysis/
+      - title: "Problem Set 1"
+        url: /algorithms-design-analysis/set-1/
+      - title: "Problem Set 2"
+        url: /algorithms-design-analysis/set-2/
+      - title: "Probability Questions"
+        url: /algorithms-design-analysis/probability/
+      - title: "Problem Set 3"
+        url: /algorithms-design-analysis/set-3/
+      - title: "Homework 3 Optional Problems"
+        url: /algorithms-design-analysis/hw-3-opt/
+      - title: "Problem Set 4"
+        url: /algorithms-design-analysis/set-4/
+      - title: "Homework 4 Optional Problems"
+        url: /algorithms-design-analysis/hw-4-opt/
+      - title: "Problem Set 5"
+        url: /algorithms-design-analysis/set-5/
+      - title: "Homework 5 Optional Problems"
+        url: /algorithms-design-analysis/hw-5-opt/
+      - title: "Problem Set 6"
+        url: /algorithms-design-analysis/set-6/
+      - title: "Homework 6 Optional Problems"
+        url: /algorithms-design-analysis/hw-6-opt/
+      - title: "Final Exam"
+        url: /algorithms-design-analysis/final/

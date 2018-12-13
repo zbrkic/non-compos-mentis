@@ -1,14 +1,18 @@
 {% if page.mathjax %}
   <script type="text/x-mathjax-config">
    MathJax.Hub.Config({
-     extensions: ["tex2jax.js"],
-     jax: ["input/TeX", "output/HTML-CSS"],
+     showProcessingMessages: false,
+     messageStyle: "none",
      tex2jax: {
        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
        processEscapes: true
      },
-     "HTML-CSS": { fonts: ["TeX"] }
+     TeX: {
+       MultLineWidth: "100%",
+       equationNumbers: { autoNumber: "AMS" }
+     },
+     "HTML-CSS": { fonts: ["Latin-Modern"] }
    });
   </script>
   <script type="text/javascript" async
