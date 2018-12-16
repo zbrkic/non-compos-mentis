@@ -13,8 +13,11 @@ toc: true
 * [MIT 6.854J 2008 - Advanced Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2008/lecture-notes/)
 * [MIT 6.856J 2002 - Randomized Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-856j-randomized-algorithms-fall-2002/lecture-notes/)
 * [MIT 6.852J 2009 - Distributed Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-852j-distributed-algorithms-fall-2009/lecture-notes/)
-* [York College CS 360](http://faculty.ycp.edu/~dbabcock/PastCourses/cs360/lectures/index.html)
-* [Discrete Mathematics in Computer Science](https://math.dartmouth.edu/archive/m19w03/public_html/)
+* [York College - CS 360](http://faculty.ycp.edu/~dbabcock/PastCourses/cs360/lectures/index.html)
+* [Dartmouth College - Discrete Mathematics in Computer Science](https://math.dartmouth.edu/archive/m19w03/public_html/)
+* [Carnegie Mellon University - Parallel and Sequential Data Structures and Algorithms](http://www.cs.cmu.edu/afs/cs/academic/class/15210-f12/www/schedule.html). Since summer of 2013, the course is taught from the book [
+Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2gzEmkDDCb0NBSlFWYnBDNEk/view).
+* [McGill University COMP 251 - Algorithms and Data Structures](http://www.cim.mcgill.ca/~langer/251.html)
 
 ## Practice
 * [BRILLIANT](https://brilliant.org/courses/#computer-science-advanced)
@@ -34,9 +37,10 @@ toc: true
 * [reneargento/algorithms-sedgewick-wayne](https://github.com/reneargento/algorithms-sedgewick-wayne)
 * [MIT 6.006 Fall 07 Quiz 2](/assets/docs/algorithms-curated/MIT 6.006 Fall 07 Quiz 2.pdf)
 * [MIT 6.006 Spring 08 Quiz 2](/assets/docs/algorithms-curated/MIT 6.006 Spring 08 Quiz 2.pdf)
+* [All Exercises and Solutions - Ecole Polytechnique](/assets/docs/algorithms-curated/All Exercises and Solutions - Ecole Polytechnique.pdf)
+* [CSCI 3110 Practice Problems Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Practice Problems Solutions - Dalhousie University.pdf)
 
 ## Implementations
-### Java
 * [SSQ/Coursera-Stanford-Algorithms-Specialization](https://github.com/SSQ/Coursera-Stanford-Algorithms-Specialization/blob/master/README.md)
 * [yusufcakal/algorithms](https://github.com/yusufcakal/algorithms)
 * [deepak-malik/Data-Structures-In-Java](https://github.com/deepak-malik/Data-Structures-In-Java)
@@ -47,18 +51,23 @@ toc: true
 * [asmolich/algorithms](https://github.com/asmolich/algorithms)
 * [phishman3579/java-algorithms-implementation](https://github.com/phishman3579/java-algorithms-implementation)
 * [jpa99/Algorithms](https://github.com/jpa99/Algorithms)
-
-### Scala
+* [skseth/algorithms](https://github.com/skseth/algorithms)
+* [harshitkgupta/algorithms](https://github.com/harshitkgupta?utf8=%E2%9C%93&tab=repositories&q=algorithms&type=&language=)
+* [teddyrendahl/stanford-algs](https://github.com/teddyrendahl/stanford-algs)
+* [sestus/algorithms-stanford](https://github.com/sestus/algorithms-stanford)
 * [vkostyukov/scalacaster](https://github.com/vkostyukov/scalacaster)
 * [pathikrit/scalgos](https://github.com/pathikrit/scalgos)
 
 ## Asymptotic Analysis
 * [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
 * [Master Theorem](/assets/docs/algorithms-curated/Master Theorem - brilliant.pdf)
+* [CSCI 3110 Assignment 1 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 1 Solutions - Dalhousie University.pdf)
+* [CSCI 3110 Assignment 2 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 2 Solutions - Dalhousie University.pdf)
 
 ## Divide-and-Conquer
 * [Solving Divide-and-Conquer Recurrences](/assets/docs/algorithms-curated/Solving Divide-and-Conquer Recurrences.pdf)
 * [Finding the Closest Pair of Points on the Plane](https://www.youtube.com/watch?v=xi-WF07rAQw)
+* [CSCI 3110 Assignment 6 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 6 Solutions - Dalhousie University.pdf)
 
 ## Probability
 * [Probabilistic Analysis](/assets/docs/algorithms-curated/Probabilistic Analysis - CS 360.pdf)
@@ -66,14 +75,20 @@ toc: true
 ## Selection
 * [Finding Second Largest Element in an Array](/assets/docs/algorithms-curated/Finding Second Largest Element in an Array - CSC 349.pdf)
 * [Kth Smallest Element](/assets/docs/algorithms-curated/Kth Smallest Element - Quora.pdf)
+* [CSCI 3110 Assignment 7 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 7 Solutions - Dalhousie University.pdf)
 
 ## Graphs
 
-### Connectivity
+### General
 * [Topological Sort](/assets/docs/algorithms-curated/Topological Sort.pdf)
 * [Solving 2-List Coloring (by Reducing to 2-SAT)](/assets/docs/algorithms-curated/Solving 2-List Coloring - Gil.pdf)
 * [Episode 24 - 2SAT](https://www.youtube.com/watch?v=0nNYy3rltgA)
 * [Graph Contraction and Connectivity](/assets/docs/algorithms-curated/Graph Contraction and Connectivity - 15-210.pdf)
+* [CSCI 3110 Assignment 3 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 3 Solutions - Dalhousie University.pdf)
+* [CSCI 3110 Assignment 4 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 4 Solutions - Dalhousie University.pdf)
+* [CSCI 3110 Assignment 5 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 5 Solutions - Dalhousie University.pdf)
+* [Everything about Bottleneck Spanning Tree](http://flashing-thoughts.blogspot.com/2010/06/everything-about-bottleneck-spanning.html)
+* [Spanning Trees Exercises Solutions - Ecole Polytechnique](/assets/docs/algorithms-curated/Spanning Trees Exercises Solutions - Ecole Polytechnique.pdf)
 
 ### Shortest Paths
 * [A Note on Practical Construction Of Maximum Bandwidth Paths](/assets/docs/algorithms-curated/A Note on Practical Construction Of Maximum Bandwidth Paths.pdf)
@@ -98,10 +113,6 @@ toc: true
 * [Hashing - CS 253](/assets/docs/algorithms-curated/Hashing - CS 253.pdf)
 * [Universal Hashing- Minimizing Collisions](/assets/docs/algorithms-curated/Universal Hashing- Minimizing Collisions.pdf)
 * [Universal Classes of Hash Functions](/assets/docs/algorithms-curated/Universal Classes of Hash Functions.pdf)
-
-### Trees
-* [Everything about Bottleneck Spanning Tree](http://flashing-thoughts.blogspot.com/2010/06/everything-about-bottleneck-spanning.html)
-* [Memory-optimal Range Queries and Updates in logN]()
 
 ### Circuits
 * [Circuits](/assets/docs/algorithms-curated/Circuits - CSE 373.pdf)

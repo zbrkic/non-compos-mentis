@@ -247,6 +247,9 @@ collections:
   algorithms-design-analysis:
     output: true
     permalink: /:collection/:path/
+  algorithms-design-analysis-2:
+    output: true
+    permalink: /:collection/:path/
 
 
 defaults:
@@ -280,3 +283,15 @@ defaults:
       related:        true
       sidebar:
         nav: "algorithms-design-analysis"
+  # algorithms-design-analysis-2
+  - scope:
+      path:           ""
+      type:           algorithms-design-analysis-2
+    values:
+      layout:         single
+      author_profile: false
+      comments:       true
+      share:          true
+      related:        true
+      sidebar:
+        nav: "algorithms-design-analysis-2"

@@ -40,3 +40,13 @@ algorithms-design-analysis:
         url: /algorithms-design-analysis/hw-6-opt/
       - title: "Final Exam"
         url: /algorithms-design-analysis/final/
+
+algorithms-design-analysis-2:
+  - title: "Algorithms: Design and Analysis II"
+    children:
+      - title: "About This Course"
+        url: /algorithms-design-analysis-2/
+      - title: "Problem Set 1"
+        url: /algorithms-design-analysis-2/set-1/
+      - title: "Homework 1 Optional Problems"
+        url: /algorithms-design-analysis-2/hw-1-opt/
