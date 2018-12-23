@@ -56,7 +56,7 @@ Distance rules:
 * _Radius_: Minumum eccentricity. $$ rad(G) = min \{e(v) \ \vert \ v \in G\} $$
 
 Example:
-{% include figure image_path="/assets/images/graphs-data-structures-week-1b.png" %}
+{% include figure image_path="/assets/images/algorithms-design-analysis-42.png" %}
 
 | v   | e(v) |
 | --- | ---  |
@@ -94,7 +94,7 @@ Therefore, options 2 and 4 are correct.
 * Always
 
 **ANSWER:** The graph in question is shown below:
-{% include figure image_path="/assets/images/graphs-data-structures-week-1a.png" %}
+{% include figure image_path="/assets/images/algorithms-design-analysis-41.png" %}
 
 If we run DFS from vertex $$ s $$, there is only one backward edge $$ (t, s) $$. But if we run DFS from $$ t $$, the ordering is $$ w, v, s, t $$, with all the edges pointing backward. Thus, option 1 is coorect.
 

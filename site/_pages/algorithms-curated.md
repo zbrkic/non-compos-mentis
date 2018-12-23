@@ -28,6 +28,7 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 
 ## Blogs
 * [Vaidehi Joshi](https://dev.to/vaidehijoshi)
+* [Coding Recipes](http://codingrecipies.blogspot.com/)
 
 ## Solutions
 * [CLRS Solutions](https://walkccc.github.io/CLRS/)
@@ -63,6 +64,7 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 * [Master Theorem](/assets/docs/algorithms-curated/Master Theorem - brilliant.pdf)
 * [CSCI 3110 Assignment 1 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 1 Solutions - Dalhousie University.pdf)
 * [CSCI 3110 Assignment 2 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 2 Solutions - Dalhousie University.pdf)
+* [Worst-Case Analysis of Set Union Algorithms - Tarjan](/assets/docs/algorithms-curated/Worst-Case Analysis of Set Union Algorithms - Tarjan.pdf)
 
 ## Divide-and-Conquer
 * [Solving Divide-and-Conquer Recurrences](/assets/docs/algorithms-curated/Solving Divide-and-Conquer Recurrences.pdf)
@@ -107,6 +109,11 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 * [Shortest Path Algorithms](/assets/docs/algorithms-curated/Dijkstra’s Algorithm with simple buckets - MIT 15.082J.pdf)
 * [Modifying Dijkstra's algorithm for edge weights drawn from range](/assets/docs/algorithms-curated/Modifying Dijkstra's algorithm for edge weights drawn from range.pdf)
 * [Dijkstra's algorithm for edge weights in range.pdf](/assets/docs/algorithms-curated/Dijkstra's algorithm for edge weights in range.pdf)
+
+### Matroids
+* [Matroid Optimization - MIT 18.433](/assets/docs/algorithms-curated/Matroid Optimization - MIT 18.433.pdf)
+* [Matroid Intersection - MIT 18.433](/assets/docs/algorithms-curated/Matroids - Johnson.pdf)
+* [Matroids - Johnson](/assets/docs/algorithms-curated/Matroids - Johnson.pdf)
 
 ### Hashing
 * [Probability Calculations in Hashing](/assets/docs/algorithms-curated/Probability Calculations in Hashing.pdf)

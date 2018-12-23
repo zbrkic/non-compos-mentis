@@ -64,9 +64,9 @@ Thus, option 4 is correct, and the other ones are not.
 * For every $$ G $$ and $$ H $$ and spanning tree $$ T_H $$ of $$ H $$, at least one of these edges is missing from $$ T_H $$
 * For every $$ G $$ and $$ H $$, these edges form a spanning tree (but not necessary minimum-cost) of $$ H $$
 
-**ANSWER:** Consider a triangle graph $$ G = A \xrightarrow{1} B \xrightarrow{1} C, A \xrightarrow{3} C; \therefore T = {(A, B), (B, C)} $$. If $$ H = {(A, C)}, T \cap H = \emptyset $$, which rules out options 1 and 4.
+**ANSWER:** Consider a triangle graph $$ G = C \xleftarrow{3} A \xrightarrow{1} B \xrightarrow{1} C; \therefore T = {(A, B), (B, C)} $$. If $$ H = {(A, C)}, T \cap H = \emptyset $$, which rules out options 1 and 4.
 
-Option 2 is correct. To prove it, lets establish the _Light-Edge Property_ of a MST.
+Option 2 is correct. To prove it, let's establish the _Light-Edge Property_ of a MST.
 
 _Light-Edge Property: Let G = (V, E) be a connected undirected weighted graph with distinct edge weights. For any cut of G, the minimum weight edge that crosses the cut is in the minimum spanning tree T of G._
 

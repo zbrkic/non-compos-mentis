@@ -20,7 +20,7 @@ mathjax: true
 
 **ANSWER:** The recursion tree is shown below, solid boxes represent going down into recursion, dashed boxes represent coming up from recursion. Option 3 is correct.
 
-{% include figure image_path="/assets/images/algorithms-divide-conquer-final.png" alt="Merge Sort Recursion Tree" caption="Merge Sort Recursion Tree." %}
+{% include figure image_path="/assets/images/algorithms-design-analysis-final.png" alt="Merge Sort Recursion Tree" caption="Merge Sort Recursion Tree." %}
 
 > What is the asymptotic worst-case running time of MergeSort, as a function of the input array length $$ n $$?
 * \\(\Theta(n\log n)\\)
