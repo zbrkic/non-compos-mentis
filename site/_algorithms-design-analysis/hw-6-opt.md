@@ -63,6 +63,6 @@ By the [Pigeon hole Principle](https://en.wikipedia.org/wiki/Pigeonhole_principl
 ## References
 
 [^1]: [Universal Hashing- Minimizing Collisions](/assets/docs/algorithms-curated/Universal Hashing- Minimizing Collisions.pdf)
-[^2]: [Universal Classes of Hash Functions](/assets/docs/algorithms-curated/Universal Classes of Hash Functions.pdf)
+[^2]: [Universal Classes of Hash Functions - Carter+Wegman](/assets/docs/algorithms-curated/Universal Classes of Hash Functions - Carter+Wegman.pdf)
 
 

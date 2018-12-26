@@ -82,12 +82,12 @@ Having found the critical edge, we run BFS ignoring all edges with weight greate
 
 > What if the graph is directed? Can you compute a minimum-bottleneck path between two given vertices faster than $$ O(m\log n) $$?
 
-**ANSWER:** [This](/assets/docs/algorithms-curated/On the Bottleneck Shortest Path Problem.pdf) paper argues that the above algorithm doesn't work for directed graphs because:
+**ANSWER:** [This](/assets/docs/algorithms-curated/On the Bottleneck Shortest Path Problem - Kaibel+Peinhardt.pdf) paper argues that the above algorithm doesn't work for directed graphs because:
 > the shrinking step in line 13 will not significantly reduce the number of edges, since it need not to be true that every "thin" edge is contained in some strongly connected component.
 
 However, I have yet to convince myself of the above argument. The paper also offers a linear-time algorithm for computing a minimum-bottleneck path in directed graphs but it looks quite complicated.
 
-If the edge weights are integral and drawn from a small range such that the maximum edge weight is known, then [this](/assets/docs/algorithms-curated/Dijkstra’s Algorithm with simple buckets - MIT 15.082J.pdf) lecture presents a modified Dijkstra's algorithm using buckets, aka Dial's implementation. There are a few ways of improving the time complexity of this algorithm.
+If the edge weights are integral and drawn from a small range such that the maximum edge weight is known, then [this](/assets/docs/algorithms-curated/Dijkstra's Algorithm with Simple Buckets - MIT 15.082J.pdf) lecture presents a modified Dijkstra's algorithm using buckets, aka Dial's implementation. There are a few ways of improving the time complexity of this algorithm.
 1. We can use a circular queue of size $$ W + 2 $$, where $$ W $$ is the maximum edge weight. The bucket corresponding to $$ dist(v) $$ is simply $$ dist(v)\ mod\ (W + 1) $$. Last bucket contains the vertices not yet visited, corresponding to distance $$ \infty $$.
 2. By maintaining a distance to heap index hash table, we can do distance updates in constant time. Note that the heap property is not violated if a vertex is moved bwteen buckets. It's only when a buket is inserted or deleted, we need to worry about restoring the heap property.
 

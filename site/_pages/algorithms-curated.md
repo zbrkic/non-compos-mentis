@@ -7,17 +7,23 @@ toc: true
 ---
 
 ## General
-* [MIT 6.006 2011 - Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/)
-* [MIT 6.046J 2015 - Design and Analysis of Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/)
-* [MIT 6.046J 2005 - Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video-lectures/)
-* [MIT 6.854J 2008 - Advanced Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2008/lecture-notes/)
-* [MIT 6.856J 2002 - Randomized Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-856j-randomized-algorithms-fall-2002/lecture-notes/)
-* [MIT 6.852J 2009 - Distributed Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-852j-distributed-algorithms-fall-2009/lecture-notes/)
-* [York College - CS 360](http://faculty.ycp.edu/~dbabcock/PastCourses/cs360/lectures/index.html)
-* [Dartmouth College - Discrete Mathematics in Computer Science](https://math.dartmouth.edu/archive/m19w03/public_html/)
-* [Carnegie Mellon University - Parallel and Sequential Data Structures and Algorithms](http://www.cs.cmu.edu/afs/cs/academic/class/15210-f12/www/schedule.html). Since summer of 2013, the course is taught from the book [
+* [Introduction to Algorithms - MIT 6.006 2011](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/)
+* [Design and Analysis of Algorithms - MIT 6.046J 2015](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/)
+* [Introduction to Algorithms - MIT 6.046J 2005](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video-lectures/)
+* [Advanced Algorithms - MIT 6.854J 2008](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2008/lecture-notes/)
+* [Randomized Algorithms - MIT 6.856J 2002](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-856j-randomized-algorithms-fall-2002/lecture-notes/)
+* [Distributed Algorithms - MIT 6.852J 2009](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-852j-distributed-algorithms-fall-2009/lecture-notes/)
+* [Introduction to Algorithms - York College CS 360](http://faculty.ycp.edu/~dbabcock/PastCourses/cs360/lectures/index.html)
+* [Skiena's Algorithms Lectures](https://www3.cs.stonybrook.edu/~algorith/video-lectures/)
+* [Discrete Mathematics in Computer Science - Dartmouth College](https://math.dartmouth.edu/archive/m19w03/public_html/)
+* [Parallel and Sequential Data Structures and Algorithms - Carnegie Mellon University](http://www.cs.cmu.edu/afs/cs/academic/class/15210-f12/www/schedule.html). Since summer of 2013, the course is taught from the book [
 Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2gzEmkDDCb0NBSlFWYnBDNEk/view).
-* [McGill University COMP 251 - Algorithms and Data Structures](http://www.cim.mcgill.ca/~langer/251.html)
+* [Algorithms and Data Structures - McGill University COMP 251](http://www.cim.mcgill.ca/~langer/251.html)
+* [Design and Analysis of Computer Algorithms - University of Maryland CMSC 451](http://www.cs.umd.edu/class/fall2017/cmsc451-0101/lectures.shtml)
+* [Algorithms: Design and Analysis](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms1+SelfPaced/about)
+* [Algorithms: Design and Analysis II](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms2+SelfPaced/about)
+* [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1)
+* [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2)
 
 ## Practice
 * [BRILLIANT](https://brilliant.org/courses/#computer-science-advanced)
@@ -25,6 +31,7 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 * [Code Monk](https://www.hackerearth.com/practice/codemonk/)
 * [CodeChef](https://www.codechef.com)
 * [SPOJ](https://www.spoj.com/)
+* [HackerRank](https://www.hackerrank.com/domains/algorithms)
 
 ## Blogs
 * [Vaidehi Joshi](https://dev.to/vaidehijoshi)
@@ -36,10 +43,12 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 * [aistrate/AlgorithmsSedgewick](https://github.com/aistrate/AlgorithmsSedgewick)
 * [rhapsodyai/AlgorithmDesignManual](https://github.com/rhapsodyai/Textbooks)
 * [reneargento/algorithms-sedgewick-wayne](https://github.com/reneargento/algorithms-sedgewick-wayne)
-* [MIT 6.006 Fall 07 Quiz 2](/assets/docs/algorithms-curated/MIT 6.006 Fall 07 Quiz 2.pdf)
-* [MIT 6.006 Spring 08 Quiz 2](/assets/docs/algorithms-curated/MIT 6.006 Spring 08 Quiz 2.pdf)
+* [Quiz 2 - MIT 6.006 Fall 07](/assets/docs/algorithms-curated/Quiz 2 - MIT 6.006 Fall 07.pdf)
+* [Quiz 2 - MIT 6.006 Spring 08](/assets/docs/algorithms-curated/Quiz 2 - MIT 6.006 Spring 08.pdf)
 * [All Exercises and Solutions - Ecole Polytechnique](/assets/docs/algorithms-curated/All Exercises and Solutions - Ecole Polytechnique.pdf)
-* [CSCI 3110 Practice Problems Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Practice Problems Solutions - Dalhousie University.pdf)
+* [Practice Problems Solutions - Dalhousie University CSCI 3110](/assets/docs/algorithms-curated/Practice Problems Solutions - Dalhousie University CSCI 3110.pdf)
+* [Homeworks and Handouts - University of Maryland CMSC 451](http://www.cs.umd.edu/class/fall2017/cmsc451-0101/handouts.shtml)
+* [Algorithms and Complexity - KTH DD2354](http://www.csc.kth.se/utbildning/kth/kurser/DD2354/algokomp10/)
 
 ## Implementations
 * [SSQ/Coursera-Stanford-Algorithms-Specialization](https://github.com/SSQ/Coursera-Stanford-Algorithms-Specialization/blob/master/README.md)
@@ -61,23 +70,23 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 
 ## Asymptotic Analysis
 * [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-* [Master Theorem](/assets/docs/algorithms-curated/Master Theorem - brilliant.pdf)
-* [CSCI 3110 Assignment 1 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 1 Solutions - Dalhousie University.pdf)
-* [CSCI 3110 Assignment 2 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 2 Solutions - Dalhousie University.pdf)
+* [Master Theorem](/assets/docs/algorithms-curated/Master Theorem - Brilliant.pdf)
+* [Assignment 1 Solutions - Dalhousie University CSCI 3110](/assets/docs/algorithms-curated/Assignment 1 Solutions - Dalhousie University CSCI 3110.pdf)
+* [Assignment 2 Solutions - Dalhousie University CSCI 3110](/assets/docs/algorithms-curated/Assignment 2 Solutions - Dalhousie University CSCI 3110.pdf)
 * [Worst-Case Analysis of Set Union Algorithms - Tarjan](/assets/docs/algorithms-curated/Worst-Case Analysis of Set Union Algorithms - Tarjan.pdf)
 
 ## Divide-and-Conquer
-* [Solving Divide-and-Conquer Recurrences](/assets/docs/algorithms-curated/Solving Divide-and-Conquer Recurrences.pdf)
+* [Solving Divide-and-Conquer Recurrences - Adamchik](/assets/docs/algorithms-curated/Solving Divide-and-Conquer Recurrences - Adamchik.pdf)
 * [Finding the Closest Pair of Points on the Plane](https://www.youtube.com/watch?v=xi-WF07rAQw)
-* [CSCI 3110 Assignment 6 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 6 Solutions - Dalhousie University.pdf)
+* [Assignment 6 Solutions - Dalhousie University CSCI 3110](/assets/docs/algorithms-curated/Assignment 6 Solutions - Dalhousie University CSCI 3110.pdf)
 
 ## Probability
-* [Probabilistic Analysis](/assets/docs/algorithms-curated/Probabilistic Analysis - CS 360.pdf)
+* [Probabilistic Analysis - York College](/assets/docs/algorithms-curated/Probabilistic Analysis - York College.pdf)
 
 ## Selection
-* [Finding Second Largest Element in an Array](/assets/docs/algorithms-curated/Finding Second Largest Element in an Array - CSC 349.pdf)
+* [Finding Second Largest Element in an Array - University of Maryland](/assets/docs/algorithms-curated/Finding Second Largest Element in an Array - University of Maryland.pdf)
 * [Kth Smallest Element](/assets/docs/algorithms-curated/Kth Smallest Element - Quora.pdf)
-* [CSCI 3110 Assignment 7 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 7 Solutions - Dalhousie University.pdf)
+* [Assignment 7 Solutions - Dalhousie University CSCI 3110](/assets/docs/algorithms-curated/Assignment 7 Solutions - Dalhousie University CSCI 3110.pdf)
 
 ## Graphs
 
@@ -85,51 +94,62 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 * [Topological Sort](/assets/docs/algorithms-curated/Topological Sort.pdf)
 * [Solving 2-List Coloring (by Reducing to 2-SAT)](/assets/docs/algorithms-curated/Solving 2-List Coloring - Gil.pdf)
 * [Episode 24 - 2SAT](https://www.youtube.com/watch?v=0nNYy3rltgA)
-* [Graph Contraction and Connectivity](/assets/docs/algorithms-curated/Graph Contraction and Connectivity - 15-210.pdf)
-* [CSCI 3110 Assignment 3 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 3 Solutions - Dalhousie University.pdf)
-* [CSCI 3110 Assignment 4 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 4 Solutions - Dalhousie University.pdf)
-* [CSCI 3110 Assignment 5 Solutions - Dalhousie University](/assets/docs/algorithms-curated/CSCI 3110 Assignment 5 Solutions - Dalhousie University.pdf)
+* [Graph Contraction and Connectivity - Carnegie Mellon University](/assets/docs/algorithms-curated/Graph Contraction and Connectivity - Carnegie Mellon University.pdf)
+* [Assignment 3 Solutions - Dalhousie University CSCI 3110](/assets/docs/algorithms-curated/Assignment 3 Solutions - Dalhousie University CSCI 3110.pdf)
+* [Assignment 4 Solutions - Dalhousie University CSCI 3110](/assets/docs/algorithms-curated/Assignment 4 Solutions - Dalhousie University CSCI 3110.pdf)
+* [Assignment 5 Solutions - Dalhousie University CSCI 3110](/assets/docs/algorithms-curated/Assignment 5 Solutions - Dalhousie University CSCI 3110.pdf)
 * [Everything about Bottleneck Spanning Tree](http://flashing-thoughts.blogspot.com/2010/06/everything-about-bottleneck-spanning.html)
 * [Spanning Trees Exercises Solutions - Ecole Polytechnique](/assets/docs/algorithms-curated/Spanning Trees Exercises Solutions - Ecole Polytechnique.pdf)
+* [B Trees - University of Craiova](/assets/docs/algorithms-curated/B Trees - University of Craiova.pdf)
 
 ### Shortest Paths
-* [A Note on Practical Construction Of Maximum Bandwidth Paths](/assets/docs/algorithms-curated/A Note on Practical Construction Of Maximum Bandwidth Paths.pdf)
-* [A Practical Shortest Path Problem with Linear Expected Time](/assets/docs/algorithms-curated/A Practical Shortest Path Problem with Linear Expected Time.pdf)
-* [Chneg Homework 10](/assets/docs/algorithms-curated/Chneg Homework 10.pdf)
+* [A Note on Practical Construction Of Maximum Bandwidth Paths - Malpani+Chen](/assets/docs/algorithms-curated/A Note on Practical Construction Of Maximum Bandwidth Paths - Malpani+Chen.pdf)
+* [A Practical Shortest Path Problem with Linear Expected Time - Goldberg](/assets/docs/algorithms-curated/A Practical Shortest Path Problem with Linear Expected Time - Goldberg.pdf)
+* [Bottleneck Spanning Tree Homework - Cheng](/assets/docs/algorithms-curated/Bottleneck Spanning Tree Homework - Cheng.pdf)
 * [Faster Algorithms for the Shortest Path Problem](/assets/docs/algorithms-curated/Faster Algorithms for the Shortest Path Problem.pdf)
 * [Graph Algorithms II](/assets/docs/algorithms-curated/Graph Algorithms II.pdf)
-* [Implementations of Dijkstra's Algorithm Based on Multi-Level Buckets](/assets/docs/algorithms-curated/Implementations of Dijkstra's Algorithm Based on Multi-Level Buckets.pdf)
-* [MIT 6.006 Spring 11 Rec 16](/assets/docs/algorithms-curated/MIT 6.006 Spring 11 Rec 16.pdf)
-* [On the Bottleneck Shortest Path Problem](/assets/docs/algorithms-curated/On the Bottleneck Shortest Path Problem.pdf)
-* [Practical Efficiency of the Linear-time Algorithm for the Single Source Shortest Path Problem](/assets/docs/algorithms-curated/Practical Efficiency of the Linear-time Algorithm for the Single Source Shortest Path Problem.pdf)
-* [Undirected Single Source Shortest Paths in Linear Time](/assets/docs/algorithms-curated/Undirected Single Source Shortest Paths in Linear Time.pdf)
+* [Implementations of Dijkstra's Algorithm Based on Multi-Level Buckets - Goldberg+Silverstein](/assets/docs/algorithms-curated/Implementations of Dijkstra's Algorithm Based on Multi-Level Buckets - Goldberg+Silverstein.pdf)
+* [Rec 16 - MIT 6.006 Spring 11](/assets/docs/algorithms-curated/Rec 16 - MIT 6.006 Spring 11.pdf)
+* [On the Bottleneck Shortest Path Problem - Kaibel+Peinhardt](/assets/docs/algorithms-curated/On the Bottleneck Shortest Path Problem - Kaibel+Peinhardt.pdf)
+* [Practical Efficiency of the Linear-time Algorithm for the Single Source Shortest Path Problem - Asano+Imai](/assets/docs/algorithms-curated/Practical Efficiency of the Linear-time Algorithm for the Single Source Shortest Path Problem - Asano+Imai.pdf)
+* [Undirected Single Source Shortest Paths in Linear Time - Thorup](/assets/docs/algorithms-curated/Undirected Single Source Shortest Paths in Linear Time - Thorup.pdf)
 * [T-joins and Applications](/assets/docs/algorithms-curated/T-joins and Applications - Chekuri.pdf)
-* [Shortest Path Algorithms](/assets/docs/algorithms-curated/Shortest Path Algorithms - Goddyn.pdf)
-* [Shortest Paths](/assets/docs/algorithms-curated/Shortest Paths - Ahuja.pdf)
-* [Shortest Path Algorithms](/assets/docs/algorithms-curated/Dijkstra’s Algorithm with simple buckets - MIT 15.082J.pdf)
-* [Modifying Dijkstra's algorithm for edge weights drawn from range](/assets/docs/algorithms-curated/Modifying Dijkstra's algorithm for edge weights drawn from range.pdf)
-* [Dijkstra's algorithm for edge weights in range.pdf](/assets/docs/algorithms-curated/Dijkstra's algorithm for edge weights in range.pdf)
+* [Shortest Path Algorithms - Goddyn](/assets/docs/algorithms-curated/Shortest Path Algorithms - Goddyn.pdf)
+* [Shortest Paths - Ahuja](/assets/docs/algorithms-curated/Shortest Paths - Ahuja.pdf)
+* [Dijkstra's Algorithm with Simple Buckets - MIT 15.082J](/assets/docs/algorithms-curated/Dijkstra's Algorithm with Simple Buckets - MIT 15.082J.pdf)
+* [Modifying Dijkstra's Algorithm for Edge Weights Drawn from Range](/assets/docs/algorithms-curated/Modifying Dijkstra's Algorithm for Edge Weights Drawn from Range.pdf)
+* [Dijkstra's Algorithm for Edge Weights in Range](/assets/docs/algorithms-curated/Dijkstra's Algorithm for Edge Weights in Range.pdf)
 
 ### Matroids
 * [Matroid Optimization - MIT 18.433](/assets/docs/algorithms-curated/Matroid Optimization - MIT 18.433.pdf)
 * [Matroid Intersection - MIT 18.433](/assets/docs/algorithms-curated/Matroids - Johnson.pdf)
 * [Matroids - Johnson](/assets/docs/algorithms-curated/Matroids - Johnson.pdf)
 
-### Hashing
-* [Probability Calculations in Hashing](/assets/docs/algorithms-curated/Probability Calculations in Hashing.pdf)
-* [Hashing - CS 253](/assets/docs/algorithms-curated/Hashing - CS 253.pdf)
-* [Universal Hashing- Minimizing Collisions](/assets/docs/algorithms-curated/Universal Hashing- Minimizing Collisions.pdf)
-* [Universal Classes of Hash Functions](/assets/docs/algorithms-curated/Universal Classes of Hash Functions.pdf)
-
 ### Circuits
-* [Circuits](/assets/docs/algorithms-curated/Circuits - CSE 373.pdf)
+* [Circuits](/assets/docs/algorithms-curated/Circuits.pdf)
+
+## Hashing
+* [Probability Calculations in Hashing](/assets/docs/algorithms-curated/Probability Calculations in Hashing.pdf)
+* [Hashing - Bebis](/assets/docs/algorithms-curated/Hashing - Bebis.pdf)
+* [Universal Hashing- Minimizing Collisions](/assets/docs/algorithms-curated/Universal Hashing- Minimizing Collisions.pdf)
+* [Universal Classes of Hash Functions - Carter+Wegman](/assets/docs/algorithms-curated/Universal Classes of Hash Functions - Carter+Wegman.pdf)
+
+## Dynamic Programming
+* [MWIS in a Tree - Chen+Kuo+Sheu](/assets/docs/algorithms-curated/MWIS in a Tree - Chen+Kuo+Sheu.pdf)
+* [The Knapsack Problem - MIT 6.006](/assets/docs/algorithms-curated/The Knapsack Problem - MIT 6.006.pdf)
+* [Optimal BST - Carnegie Mellon University](/assets/docs/algorithms-curated/Optimal BST - Carnegie Mellon University.pdf)
+* [Optimal BST - University of Craiova](/assets/docs/algorithms-curated/Optimal BST - University of Craiova.pdf)
+* [Space-Efficient Alignment - Carnegie Mellon University](/assets/docs/algorithms-curated/Space-Efficient Alignment - Carnegie Mellon University.pdf)
+* [Exercise3+4 Solutions - CTH](/assets/docs/algorithms-curated/Exercise3+4 Solutions - CTH.pdf)
+* [Dynamic Programming I - Carnegie Mellon University](/assets/docs/algorithms-curated/Dynamic Programming I - Carnegie Mellon University.pdf)
 
 ## Strings
-* [Faster Suffix Sorting](/assets/docs/algorithms-curated/Faster Suffix Sorting.pdf)
-* [How the Burrows-Wheeler Transform works](/assets/docs/algorithms-curated/How the Burrows-Wheeler Transform works.pdf)
+* [Faster Suffix Sorting - Larsson+Sadakane](/assets/docs/algorithms-curated/Faster Suffix Sorting - Larsson+Sadakane.pdf)
+* [How the Burrows-Wheeler Transform Works](/assets/docs/algorithms-curated/How the Burrows-Wheeler Transform Works.pdf)
 * [Suffix tree. Basics. Building in O(nlogn)](https://codeforces.com/blog/entry/11337)
 * [Great resource for string algorithms](http://www-igm.univ-mlv.fr/~lecroq/string/node1.html)
 * [Suffix tree. Ukkonen's algorithm](https://codeforces.com/blog/entry/16780)
+* [Trie - University of Craiova](/assets/docs/algorithms-curated/Trie - University of Craiova.pdf)
 
 ## Other Curated Lists
 * [Data Structures and Algorithms](https://discuss.codechef.com/questions/48877/data-structures-and-algorithms)
@@ -137,3 +157,4 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 * [Good Blog Post Resources about Algorithm and Data Structures](https://codeforces.com/blog/entry/13529)
 * [Awesome Competitive Programming](https://github.com/lnishan/awesome-competitive-programming)
 * [Awesome Algorithms](https://github.com/tayllan/awesome-algorithms)
+* [Algorithm Courses](http://people.cs.pitt.edu/~kirk/algorithmcourses/index.html)

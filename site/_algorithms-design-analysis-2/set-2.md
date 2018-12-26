@@ -85,6 +85,18 @@ Option 3 is incorrect; counterexample: Frequencies 0.4, 0.4, and 0.2.
 
 Option 4 is correct. Such a letter will endure a merge in at least two iterations: the last one (which involves all letters), and at least one previous iteration. In the penultimate iteration, if the letter has not yet endured a merge, at least one of the two other remaining subtrees has cumulative frequency at least $$ \frac{1 - 0.33}{2} \gt 0.33 $$, so the letter will get merged in this iteration.
 
+> Under a Huffman encoding of $$ n $$ symbols, how long (in terms of number of bits) can a codeword possibly be?
+* \\(ln \ n\\)
+* \\(n - 1\\)
+* \\(n\\)
+* \\(\log_2 n\\)
+
+**ANSWER:** Consider the frequencies $$ 2, 4, 8, 16 $$ (powers of two). Clearly, $$ 2 $$ (and $$ 4 $$) participates in every merge, of which, there are three (in general, $$ n - 1 $$). Therefore, option 2 is correct.
+
+Option 1 is the best-case scenario.
+
+This problem is not unique to Huffman encoding, it's the case of an unbalanced Binary Tree devolving into a linked list.
+
 
 
 
