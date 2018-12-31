@@ -37,9 +37,9 @@ Thus, option 1 is incorrect.
 * The single-source shortest-path problem.
 * Given a connected undirected graph $$ G = (V,E) $$ with positive edge costs, compute a minimum-cost set $$ F \subseteq E $$ such that the graph $$ (V,E-F) $$ is acyclic.
 
-**ANSWER:** If we negate the weights of all edges, the minimum spanning tree yields a maximum-cost spanning tree. Thus, option 1 is correct.
+**ANSWER:** If we negate the weights of all edges, a minimum-cost spanning tree algorithm yields a maximum-cost spanning tree. Thus, option 1 is correct.
 
-A minimum bottleneck spanning tree is also a MSt. Thus, option 2 is correct.
+A minimum bottleneck spanning tree is also a MST. Thus, option 2 is correct.
 
 Option 4 is also correct since a MST, by definition, doesn't have a cycle. However, it's not clear to me what prevents is to take only a single edge. There's nothing in the question that indicates $$ (V,E-F) $$ needs to be connected.
 

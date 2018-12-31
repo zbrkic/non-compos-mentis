@@ -65,6 +65,7 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 * [harshitkgupta/algorithms](https://github.com/harshitkgupta?utf8=%E2%9C%93&tab=repositories&q=algorithms&type=&language=)
 * [teddyrendahl/stanford-algs](https://github.com/teddyrendahl/stanford-algs)
 * [sestus/algorithms-stanford](https://github.com/sestus/algorithms-stanford)
+* [LeslieK/AlgoClass](https://github.com/LeslieK/AlgoClass)
 * [vkostyukov/scalacaster](https://github.com/vkostyukov/scalacaster)
 * [pathikrit/scalgos](https://github.com/pathikrit/scalgos)
 
@@ -119,6 +120,8 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 * [Dijkstra's Algorithm with Simple Buckets - MIT 15.082J](/assets/docs/algorithms-curated/Dijkstra's Algorithm with Simple Buckets - MIT 15.082J.pdf)
 * [Modifying Dijkstra's Algorithm for Edge Weights Drawn from Range](/assets/docs/algorithms-curated/Modifying Dijkstra's Algorithm for Edge Weights Drawn from Range.pdf)
 * [Dijkstra's Algorithm for Edge Weights in Range](/assets/docs/algorithms-curated/Dijkstra's Algorithm for Edge Weights in Range.pdf)
+* [Accelerating Johnson's All-Pairs Shortest Paths Algorithm on GPU](/assets/docs/algorithms-curated/Accelerating Johnson's APSP Algorithm on GPU.pdf)
+* [Solving All Pairs Shortest Paths in Parallel](https://moorejs.github.io/APSP-in-parallel/)
 
 ### Matroids
 * [Matroid Optimization - MIT 18.433](/assets/docs/algorithms-curated/Matroid Optimization - MIT 18.433.pdf)
