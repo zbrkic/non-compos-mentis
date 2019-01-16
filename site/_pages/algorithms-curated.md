@@ -24,6 +24,12 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 * [Algorithms: Design and Analysis II](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms2+SelfPaced/about)
 * [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1)
 * [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2)
+* [Algorithms - Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
+* [OpenDSA](https://www.ida.liu.se/opendsa/OpenDSA/Books/Everything/html/)
+* [Uri Zwick - Tel Aviv University](http://www.cs.tau.ac.il/~zwick/)
+* [Approximation Algorithms - Chandra Chekuri](https://courses.engr.illinois.edu/cs598csc/sp2011/)
+* [Tim Roughgarden Lectures](https://www.youtube.com/channel/UCcH4Ga14Y4ELFKrEYM1vXCg)
+* [Algorithms - Carnegie Mellon University 15-451/651 2012](https://www.cs.cmu.edu/~avrim/451f12/)
 
 ## Practice
 * [BRILLIANT](https://brilliant.org/courses/#computer-science-advanced)
@@ -49,8 +55,6 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 * [Practice Problems Solutions - Dalhousie University CSCI 3110](/assets/docs/algorithms-curated/Practice Problems Solutions - Dalhousie University CSCI 3110.pdf)
 * [Homeworks and Handouts - University of Maryland CMSC 451](http://www.cs.umd.edu/class/fall2017/cmsc451-0101/handouts.shtml)
 * [Algorithms and Complexity - KTH DD2354](http://www.csc.kth.se/utbildning/kth/kurser/DD2354/algokomp10/)
-
-## Implementations
 * [SSQ/Coursera-Stanford-Algorithms-Specialization](https://github.com/SSQ/Coursera-Stanford-Algorithms-Specialization/blob/master/README.md)
 * [yusufcakal/algorithms](https://github.com/yusufcakal/algorithms)
 * [deepak-malik/Data-Structures-In-Java](https://github.com/deepak-malik/Data-Structures-In-Java)
@@ -68,6 +72,11 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 * [LeslieK/AlgoClass](https://github.com/LeslieK/AlgoClass)
 * [vkostyukov/scalacaster](https://github.com/vkostyukov/scalacaster)
 * [pathikrit/scalgos](https://github.com/pathikrit/scalgos)
+* [shaiwalsachdev/Algorithms---Stanford-University](https://github.com/shaiwalsachdev/Algorithms---Stanford-University)
+* [Ziang-Lu/Coursera-Algorithms](https://github.com/Ziang-Lu/Coursera-Algorithms)
+* [HuangLiPang/Stanford-University-Algorithms](https://github.com/HuangLiPang/Stanford-University-Algorithms)
+* [fgarcialainez/Stanford-Algorithms-1](https://github.com/fgarcialainez/Stanford-Algorithms-1)
+* [fgarcialainez/Stanford-Algorithms-2](https://github.com/fgarcialainez/Stanford-Algorithms-2)
 
 ## Asymptotic Analysis
 * [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
@@ -102,6 +111,7 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 * [Everything about Bottleneck Spanning Tree](http://flashing-thoughts.blogspot.com/2010/06/everything-about-bottleneck-spanning.html)
 * [Spanning Trees Exercises Solutions - Ecole Polytechnique](/assets/docs/algorithms-curated/Spanning Trees Exercises Solutions - Ecole Polytechnique.pdf)
 * [B Trees - University of Craiova](/assets/docs/algorithms-curated/B Trees - University of Craiova.pdf)
+* [Depth-First Search and Linear Graph Algorithms - Tarjan](/assets/docs/algorithms-curated/DFS - Tarjan.pdf)
 
 ### Shortest Paths
 * [A Note on Practical Construction Of Maximum Bandwidth Paths - Malpani+Chen](/assets/docs/algorithms-curated/A Note on Practical Construction Of Maximum Bandwidth Paths - Malpani+Chen.pdf)
@@ -154,6 +164,46 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 * [Suffix tree. Ukkonen's algorithm](https://codeforces.com/blog/entry/16780)
 * [Trie - University of Craiova](/assets/docs/algorithms-curated/Trie - University of Craiova.pdf)
 
+## NP-Complete
+* [What are the Differences between NP, NP-Complete and NP-Hard - Stack Overflow](/assets/docs/algorithms-curated/What are the Differences between NP, NP-Complete and NP-Hard - Stack Overflow.pdf)
+* [The Traveling Salesman Problem - University of Crete](/assets/docs/algorithms-curated/The Traveling Salesman Problem - University of Crete.pdf)
+* [Traveling Salesperson: The Most Misunderstood Problem](http://www.nomachetejuggling.com/2012/09/14/traveling-salesman-the-most-misunderstood-problem/)
+* [Polynomial Time Approximation Schemes for Euclidean Traveling Salesman and other Geometric Problems - Arora](/assets/docs/algorithms-curated/Polynomial Time Approximation Schemes for Euclidean Traveling Salesman and other Geometric Problems - Arora.pdf)
+* [Notes on NP Completeness - Schwartz](/assets/docs/algorithms-curated/Notes on NP Completeness - Schwartz.pdf)
+* [Maximum Matching in Bipartite and Non-Bipartite Graphs - Zwick](/assets/docs/algorithms-curated/Maximum Matching in Bipartite and Non-Bipartite Graphs - Zwick.pdf)
+* [Maximum Independent Set Problem - Chekuri](/assets/docs/algorithms-curated/Maximum Independent Set Problem - Chekuri.pdf)
+* [The Traveling Salesperson Problem - Chekuri](/assets/docs/algorithms-curated/The Traveling Salesperson Problem - Chekuri.pdf)
+* [The Traveling Salesperson Problem - Roughgarden](/assets/docs/algorithms-curated/The Traveling Salesperson Problem - Roughgarden.pdf)
+* [The An-Kleinberg-Shmoys Algorithm for the TSP - Carnegie Mellon University](/assets/docs/algorithms-curated/The An-Kleinberg-Shmoys Algorithm for the TSP - Carnegie Mellon University.pdf)
+* [Design and Analysis of Algorithms (#24) - Panigrahi](/assets/docs/algorithms-curated/Design and Analysis of Algorithms (24) - Panigrahi.pdf)
+* [Approximating the Minimum Degree Spanning Tree - Furer](/assets/docs/algorithms-curated/Approximating the Minimum Degree Spanning Tree - Furer.pdf)
+* [The P vs. NP Problem - Cook](/assets/docs/algorithms-curated/The P vs. NP Problem - Cook.pdf)
+* [Dynamic Programming for Minimum Steiner Trees](/assets/docs/algorithms-curated/Dynamic Programming for Minimum Steiner Trees.pdf)
+* [Steiner Tree NP-Completeness Proof - Santuari](/assets/docs/algorithms-curated/Steiner Tree NP-Completeness Proof - Santuari.pdf)
+* [Graph Algorithms - Panigraphi](/assets/docs/algorithms-curated/Graph Algorithms - Panigraphi.pdf)
+* [Combinatorial Optimization - MIT 18.453](/assets/docs/algorithms-curated/Combinatorial Optimization - MIT 18.453.pdf)
+* [Steiner Trees - Utrecht University](/assets/docs/algorithms-curated/Steiner Trees - Utrecht University.pdf)
+* [Efficient algorithms for Steiner Tree Problem - Meng](/assets/docs/algorithms-curated/Efficient algorithms for Steiner Tree Problem - Meng.pdf)
+* [Comparing Between Different Approaches to Solve the 0/1 Knapsack Problem](/assets/docs/algorithms-curated/Knapsack - Shaheen+Sleit.pdf)
+* [Longest Path in a DAG - Khan](/assets/docs/algorithms-curated/Longest Path in a DAG - Khan.pdf)
+* [How Easy is Local Search - Johnson+Papadimitriou+Yannkakis](/assets/docs/algorithms-curated/How Easy is Local Search.pdf)
+* [The Capacitated Max K-Cut Problem - Gaur+Krishnamurti+Kohli](/assets/docs/algorithms-curated/The Capacitated Max K-Cut Problem - Gaur+Krishnamurti+Kohli.pdf)
+* [An Overview of What We Can and Cannot Do with Local Search - Christopoulos+Zissimopoulos](/assets/docs/algorithms-curated/Local Search - Christopoulos+Zissimopoulos.pdf)
+* [Approximation Algorithms - Dinitz](/assets/docs/algorithms-curated/Approximation Algorithms - Dinitz.pdf)
+* [Approximation Algorithms (2011) - Chekuri](/assets/docs/algorithms-curated/Approximation Algorithms (2011) - Chekuri.pdf)
+* [Lec-24 Traveling Salesman Problem(TSP) - IIT Madras](https://www.youtube.com/watch?v=-cLsEHP0qt0)
+* [Design and Analysis of Algorithms (#16) - Panigrahi](/assets/docs/algorithms-curated/Design and Analysis of Algorithms (16) - Panigrahi.pdf)
+* [Approximation Algorithms (2011) - Chekuri](/assets/docs/algorithms-curated/Approximation Algorithms (2011) - Chekuri.pdf)
+* [Greedy Approximation - University of Maryland](/assets/docs/algorithms-curated/Greedy Approximation - University of Maryland.pdf)
+* [Approximation Algorithms - University of Maryland](/assets/docs/algorithms-curated/Approximation Algorithms - University of Maryland.pdf)
+* [Approximation Algorithms - Zadeh](/assets/docs/algorithms-curated/Approximation Algorithms - Zadeh.pdf)
+* [Approximation Algorithms - Warnow](/assets/docs/algorithms-curated/Approximation Algorithms - Warnow.pdf)
+* [TSP Heuristics - Leading Methods, Implementations and Latest Advances](/assets/docs/algorithms-curated/TSP Heuristics - Leading Methods, Implementations and Latest Advances.pdf)
+
+{: .notice}
+Lectures 24 through 27 are all related to TSP.
+* [Heuristic Approaches to Solve TSP - Abid+Iqbal](/assets/docs/algorithms-curated/Heuristic Approaches to Solve TSP - Abid+Iqbal.pdf)
+
 ## Other Curated Lists
 * [Data Structures and Algorithms](https://discuss.codechef.com/questions/48877/data-structures-and-algorithms)
 * [All of the good tutorials found on codeforces](https://codeforces.com/blog/entry/57282)
@@ -161,3 +211,4 @@ Algorithm Design: Parallel and Sequential](https://drive.google.com/file/d/0B4z2
 * [Awesome Competitive Programming](https://github.com/lnishan/awesome-competitive-programming)
 * [Awesome Algorithms](https://github.com/tayllan/awesome-algorithms)
 * [Algorithm Courses](http://people.cs.pitt.edu/~kirk/algorithmcourses/index.html)
+* [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses)

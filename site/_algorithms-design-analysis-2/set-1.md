@@ -35,7 +35,7 @@ It is shown [here](https://walkccc.github.io/CLRS/Chap16/16.1/#161-3) that optio
 
 Option 1 is correct. To prove it, let $$ S $$ be a set of requests and $$ r_m \in S $$ a request with the earliest finish time. Let $$ R \subseteq S $$ be the maximum subset of mutually compatible requests, and $$ r_k \in R $$ a request with the earliest finish time. Clearly, $$ finish(r_m) \leq finish(r_k) $$. If they are equal, we are done with the proof. Otherwise, let $$ R' = R - \{r_k\} \cup \{r_m\} $$. Since $$ {r_k} $$ is the request with the earliest finish time in $$ R $$, and $$ finish(r_m) \lt finish(r_k) $$, therefore, none of the other requests in $$ R $$ conflict with $$ r_m $$, and hence $$ \lvert R' \rvert = \lvert R \rvert $$. Therefore, the maximum subset $$ R $$ contains $$ r_m $$, the request with the earliest finish time.
 
-> We are given as input a set of $$ n $$ jobs, where job $$ j $$ has a processing time $$ p_j $$ and a deadline $$ d_j $$. Recall the definition of completion times $$ C_j $$ from the video lectures. Given a schedule (i.e., an ordering of the jobs), we define the lateness $$ l_j $$ of job $$ j $$ as the amount of time $$ C_j - d_j $$ after its deadline that the job completes, or as 0 if $$ C_j \le d_j $$. Our goal is to minimize the maximum lateness, $$ \max_{j} l_j $$.
+> We are given as input a set of $$ n $$ jobs, where job $$ j $$ has a processing time $$ p_j $$ and a deadline $$ d_j $$. Recall the definition of completion times $$ C_j $$ from the video lectures. Given a schedule (i.e., an ordering of the jobs), we define the lateness $$ l_j $$ of job $$ j $$ as the amount of time $$ C_j - d_j $$ after its deadline that the job completes, or as $$ 0 $$ if $$ C_j \le d_j $$. Our goal is to minimize the maximum lateness, $$ \max_{j} l_j $$.
 >
 > Which of the following greedy rules produces an ordering that minimizes the maximum lateness? You can assume that all processing times and deadlines are distinct.
 * None of the other answers are correct.
@@ -68,9 +68,9 @@ Thus, option 4 is correct, and the other ones are not.
 
 Option 2 is correct. To prove it, let's establish the _Light-Edge Property_ of a MST.
 
-_Light-Edge Property: Let G = (V, E) be a connected undirected weighted graph with distinct edge weights. For any cut of G, the minimum weight edge that crosses the cut is in the minimum spanning tree T of G._
+**Light-Edge Property:** _Let G = (V, E) be a connected undirected weighted graph with distinct edge weights. For any cut of G, the minimum weight edge that crosses the cut is in the minimum spanning tree T of G._
 
-Proof: Suppose $$ e(v, w) \in E, e \notin T $$ be the minimum weight edge. If we take a cut $$ (A, B) \text{ s.t. } v \in A, w \in B $$, then there must be another edge $$ e' \in T, e' \neq e $$ that connects $$ v $$ and $$ w $$ (since by definition $$ T $$ is a connected subgraph). Let $$ T' = T - \{e'\} \cup \{e\} $$; since, $$ weight(e') > weight(e), weight(T') < weight(T) $$. Since $$ T $$ is a MST, this brings us to a contradiction, and hence $$ e \notin T $$ cannot be true.
+**Proof:** Suppose $$ e(v, w) \in E, e \notin T $$ be the minimum weight edge. If we take a cut $$ (A, B) \text{ s.t. } v \in A, w \in B $$, then there must be another edge $$ e' \in T, e' \neq e $$ that connects $$ v $$ and $$ w $$ (since by definition $$ T $$ is a connected subgraph). Let $$ T' = T - \{e'\} \cup \{e\} $$; since, $$ weight(e') > weight(e), weight(T') < weight(T) $$. Since $$ T $$ is a MST, this brings us to a contradiction, and hence $$ e \notin T $$ cannot be true.
 
 Back to the original question, suppose $$ T' $$ be a MST of $$ H $$ and an edge $$ e \in T \cap H, e \notin T' $$. Arguing on the same lines as the _Light-Edge Property_, we can show that this contradicts the assumption $$ T $$ is a MST, and $$ e $$ must be in $$ T' $$. Since $$ e $$ is an arbitrary edge, all edges in $$ T \cap H $$ must be included in $$ T' $$.
 

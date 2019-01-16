@@ -3,7 +3,7 @@ title: "Homework 1 Optional Problems"
 excerpt: "Answers to Homework 1 Optional Problems from Algorithms Design and Analysis II Course."
 mathjax: true
 ---
-> Consider a connected undirected graph $$ G $$ with not necessarily distinct edge costs. Consider two different minimum-cost spanning trees of $$ G, T \text{ and } T' $$. Is there necessarily a sequence of minimum-cost spanning trees $$ T = T_0, T_1, T_2, \ldots, T_r = T' $$ with the property that each consecutive pair $$ T_i,T_{i+1} $$ of MSTs differ by only a single edge swap? Prove the statement or exhibit a counterexample.
+> Consider a connected undirected graph $$ G $$ with not necessarily distinct edge costs. Consider two different minimum-cost spanning trees of $$ G, T \text{ and } T' $$. Is there necessarily a sequence of minimum-cost spanning trees $$ T = T_0, T_1, T_2, \dots, T_r = T' $$ with the property that each consecutive pair $$ T_i,T_{i+1} $$ of MSTs differ by only a single edge swap? Prove the statement or exhibit a counterexample.
 
 **ANSWER:** Consider the following pseudocode:
 ```

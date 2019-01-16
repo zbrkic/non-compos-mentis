@@ -64,7 +64,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/bio-photo2.jpg"
+og_image                 : "/assets/images/bio-photo3.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             :  *name
-  avatar           :  "/assets/images/bio-photo2.jpg"
+  avatar           :  "/assets/images/bio-photo3.png"
   bio              :  "Software engineer. Photographer. Usually nice guy."
   location         :  "Somewhere"
   email            :  "contact@asarkar.org"
