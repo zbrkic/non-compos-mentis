@@ -189,6 +189,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-archives
+  - jekyll-stickyposts
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -199,6 +200,7 @@ whitelist:
   - jemoji
   - jekyll-include-cache
   - jekyll-archives
+  - jekyll-stickyposts
 
 
 # Archives
@@ -271,7 +273,6 @@ defaults:
       layout:         single
       author_profile: true
       related:        true
-  # algorithms-design-analysis
   - scope:
       path:           ""
       type:           algorithms-design-analysis
@@ -283,7 +284,6 @@ defaults:
       related:        true
       sidebar:
         nav: "algorithms-design-analysis"
-  # algorithms-design-analysis-2
   - scope:
       path:           ""
       type:           algorithms-design-analysis-2
