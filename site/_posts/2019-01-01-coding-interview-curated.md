@@ -48,6 +48,8 @@ This is a curated list of various algorithms and coding interview resources. Alt
 * [allenlipeng47](http://www.allenlipeng47.com/blog/index.php/category/algorithm/)
 * [Omar Faroque - Medium](https://medium.com/@nanofaroque)
 * [AlexLin](https://www.cnblogs.com/lz87)
+* [Tian Cao - Leetcode Unlocked](http://tiancao.me/Leetcode-Unlocked/index.html)
+* [LeetFree](https://www.leetfree.com)
 
 ## Practice
 * [LeetCode](https://leetcode.com/accounts/login)
@@ -71,6 +73,7 @@ This is a curated list of various algorithms and coding interview resources. Alt
 ## Arrays
 * [Algorithms for Minesweeper Game Grid Generation - Cicvarek](/assets/docs/algorithms-curated/Algorithms for Minesweeper Game Grid Generation - Cicvarek.pdf)
 * [Fun with array rotations](https://hackernoon.com/fun-with-array-rotations-add4a335d79a)
+* [Longest Increasing Subsequence - Jan](/assets/docs/algorithms-curated/Longest Increasing Subsequence - Jan.pdf)
 
 ## Sorting and Searching
 * [Counting Sort - YouTube](https://www.youtube.com/watch?v=OKd534EWcdk)
@@ -78,6 +81,8 @@ This is a curated list of various algorithms and coding interview resources. Alt
 * [External Sorting - YouTube](https://www.youtube.com/watch?v=YjFI9CJy6x0)
 * [External Sorting - OpenDSA](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/ExternalSort.html#replacement-selection)
 * [External Sorting - Yahoo](/assets/docs/algorithms-curated/External Sorting - Yahoo.pdf)
+* [K-way-Merge-Algorithms - Quora](https://sortingalgorithms.quora.com/K-way-Merge-Algorithms)
+* [K-way Merging and K-ary Sorts - Greene](/assets/docs/algorithms-curated/K-way Merging and K-ary Sorts - Greene.pdf)
 
 ## Combinatorial
 * [Permutation Generation Methods - Sedgewick](/assets/docs/algorithms-curated/Permutation Generation Methods - Sedgewick.pdf)
@@ -86,13 +91,12 @@ This is a curated list of various algorithms and coding interview resources. Alt
 * [Efficient Algorithms to Rank and Unrank Permutations in Lexicographic Order](/assets/docs/algorithms-curated/Rank and Unrank Permutations in Lexicographic Order - Bonet.pdf)
 * [Steinhaus–Johnson–Trotter algorithm](https://en.wikipedia.org/wiki/Steinhaus%E2%80%93Johnson%E2%80%93Trotter_algorithm)
 * [Interview Question: Subarray Sums - Stanford](/assets/docs/algorithms-curated/Subarray Sums - Stanford.pdf)
-* [Interview Question: Linked List Shuffling - Stanford](/assets/docs/algorithms-curated/Linked List Shuffling - Stanford.pdf)
 * [Interview Question: Two Sum - Stanford](/assets/docs/algorithms-curated/TwoSum - Stanford.pdf)
-* [Interview Question: Anagram Detection - Stanford](/assets/docs/algorithms-curated/Anagram Detection - Stanford.pdf)
 * [Reservoir Sampling](https://kapilddatascience.wordpress.com/2015/06/11/how-to-randomly-pick-k-elements-from-an-infinite-stream-with-equal-probability-a-k-a-reservoir-sampling/)
 
 ## Linked Lists
 * [Linked List Problems - Parlante](/assets/docs/algorithms-curated/Linked List Problems - Parlante.pdf)
+* [Interview Question: Linked List Shuffling - Stanford](/assets/docs/algorithms-curated/Linked List Shuffling - Stanford.pdf)
 
 ## Binary Trees
 * [Binary Trees - Parlante](/assets/docs/algorithms-curated/Binary Trees - Parlante.pdf)
@@ -111,6 +115,7 @@ This is a curated list of various algorithms and coding interview resources. Alt
 * [Tries and Suffix Tries - Langmead](/assets/docs/algorithms-curated/Tries and Suffix Tries - Langmead.pdf)
 * [Algorithm to find the Least Lexicographic Rotation of a Circular String](https://ritukundu.wordpress.com/2016/10/07/algorithm-to-find-the-least-lexicographic-rotation-of-a-circular-string/)
 * [Tutorial on Trie and Example Problems](https://threads-iiith.quora.com/Tutorial-on-Trie-and-example-problems)
+* [Interview Question: Anagram Detection - Stanford](/assets/docs/algorithms-curated/Anagram Detection - Stanford.pdf)
 
 ## Recursion
 * [Interview Question: Recursion Problems - Stanford](/assets/docs/algorithms-curated/Recursion Problems - Stanford.pdf)
@@ -118,7 +123,11 @@ This is a curated list of various algorithms and coding interview resources. Alt
 * [A Warnsdorff-Rule Algorithm for Knight's Tours on Square Chessboards](/assets/docs/algorithms-curated/Warnsdorff-Rule Algorithm - Squirrel+Cull.pdf)
 
 ## Graphs
-* [Incremental Cycle Detection, Topological Ordering, and Strong Component Maintenance](assets/docs/algorithms-curated/Incremental Cycle Detection.pdf)
+* [Incremental Cycle Detection, Topological Ordering, and Strong Component Maintenance](/assets/docs/algorithms-curated/Incremental Cycle Detection.pdf)
+* [Existence of the de Bruijn Cycles](https://www.cut-the-knot.org/arithmetic/combinatorics/deBruijnCycles.shtml)
+* [Algorithms for De Bruijn Sequences - Vassallo+Ralston](/assets/docs/algorithms-curated/Algorithms for De Bruijn Sequences - Vassallo+Ralston.pdf)
+* [Introduction to the A* Algorithm](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
+* [Implementation of A*](https://www.redblobgames.com/pathfinding/a-star/implementation.html)
 
 ## Dynamic Programming
 * [19. Dynamic Programming I: Fibonacci, Shortest Paths - MIT 6.006](https://www.youtube.com/watch?v=OQ5jsbhAv_M)
