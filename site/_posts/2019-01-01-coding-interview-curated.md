@@ -50,6 +50,8 @@ This is a curated list of various algorithms and coding interview resources. Alt
 * [AlexLin](https://www.cnblogs.com/lz87)
 * [Tian Cao - Leetcode Unlocked](http://tiancao.me/Leetcode-Unlocked/index.html)
 * [LeetFree](https://www.leetfree.com)
+* [High Scalability](http://highscalability.com/)
+* [What are the Best Resources to Learn How to Build Scalable Systems - Quora](https://www.quora.com/What-are-the-best-resources-to-learn-how-to-build-scalable-large-software-systems)
 
 ## Practice
 * [LeetCode](https://leetcode.com/accounts/login)
@@ -93,6 +95,7 @@ This is a curated list of various algorithms and coding interview resources. Alt
 * [Interview Question: Subarray Sums - Stanford](/assets/docs/algorithms-curated/Subarray Sums - Stanford.pdf)
 * [Interview Question: Two Sum - Stanford](/assets/docs/algorithms-curated/TwoSum - Stanford.pdf)
 * [Reservoir Sampling](https://kapilddatascience.wordpress.com/2015/06/11/how-to-randomly-pick-k-elements-from-an-infinite-stream-with-equal-probability-a-k-a-reservoir-sampling/)
+* [Finding Squares and Rectangles in Sets of Points](/assets/docs/algorithms-curated/Finding Squares and Rectangles in Sets of Points.pdf)
 
 ## Linked Lists
 * [Linked List Problems - Parlante](/assets/docs/algorithms-curated/Linked List Problems - Parlante.pdf)
@@ -158,6 +161,23 @@ This is a curated list of various algorithms and coding interview resources. Alt
 * [HashLife - Rokicki](https://www.youtube.com/watch?v=l228ARRYkNE)
 * [An Algorithm for Compressing Space and Time (Conway's Life)](http://www.drdobbs.com/jvm/an-algorithm-for-compressing-space-and-t/184406478)
 * [An O(1) Algorithm for Implementing the LFU Cache Eviction Scheme](/assets/docs/algorithms-curated/LFU Cache.pdf)
+
+## JVM
+* [When is a Singleton not a Singleton?](https://www.oracle.com/technetwork/articles/java/singleton-1577166.html)
+* [How to make the perfect Singleton?](https://medium.com/@kevalpatel2106/how-to-make-the-perfect-singleton-de6b951dfdb0)
+* [The "Double-Checked Locking is Broken" Declaration](https://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html)
+* [Using JDK 9 Memory Order Modes](http://gee.cs.oswego.edu/dl/html/j9mm.html)
+* [VarHandles for Atomic Operations](http://cr.openjdk.java.net/~psandoz/varhandles/VarHandle-0.1.md)
+* [A Post-Apocalyptic sun.misc.Unsafe World](https://www.infoq.com/articles/A-Post-Apocalyptic-sun.misc.Unsafe-World)
+
+## Scalability
+* [Sharding & IDs at Instagram](https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c)
+* [What I Wish I Had Known Before Scaling Uber to 1000 Services](https://www.youtube.com/watch?v=kb-m2fasdDY)
+* [How We've Scaled Dropbox](https://www.youtube.com/watch?v=PE4gwstWhmc)
+* [Hired In Tech](https://www.hiredintech.com/classrooms/system-design/lesson/52)
+* [Consistent Hashing](https://www.youtube.com/watch?v=--4UgUPCuFM)
+* [What is Consistent Hashing and Where Is It Used?](https://www.youtube.com/watch?v=zaRkONvyGr8)
+* [Grokking the System Design Interview](https://www.educative.io/collection/5668639101419520/5649050225344512). Paid content.
 
 
 
