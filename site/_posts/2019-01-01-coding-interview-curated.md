@@ -71,11 +71,13 @@ This is a curated list of various algorithms and coding interview resources. Alt
 * [The Role of Smooth Numbers in Number Theoretic Applications - Pomerance](/assets/docs/algorithms-curated/The Role of Smooth Numbers - Pomerance.pdf)
 * [Square Roots, Newton's Method - MIT 6.006 2011](https://www.youtube.com/watch?v=2YeJ-5UAke8)
 * [Approximating Square Roots with Newton's Method](https://www.youtube.com/watch?v=tUFzOLDuvaE)
+* [Finding Square Roots Using Newton’s Method - Kazdan](/assets/docs/algorithms-curated/Finding Square Roots Using Newton's Method - Kazdan.pdf)
 
 ## Arrays
 * [Algorithms for Minesweeper Game Grid Generation - Cicvarek](/assets/docs/algorithms-curated/Algorithms for Minesweeper Game Grid Generation - Cicvarek.pdf)
 * [Fun with array rotations](https://hackernoon.com/fun-with-array-rotations-add4a335d79a)
 * [Longest Increasing Subsequence - Jan](/assets/docs/algorithms-curated/Longest Increasing Subsequence - Jan.pdf)
+* [Sparse Data Structures in Python](https://rushter.com/blog/scipy-sparse-matrices/)
 
 ## Sorting and Searching
 * [Counting Sort - YouTube](https://www.youtube.com/watch?v=OKd534EWcdk)

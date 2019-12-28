@@ -17,26 +17,6 @@ Remote `docker-compose.yml`:
 curl -sSL <URL> | docker-compose -f - up -d
 ```
 
-Get SSL Cert:
-
-1. Run Certbot Docker image
-```
-docker run -it --entrypoint=sh certbot/certbot
-```
-
-2. Run `certbot` client
-```
-certbot certonly --manual --agree-tos \
---email <email> --rsa-key-size 4096 \
--d blog.asarkar.org
-```
-> Say No to the first question that asks for permission for sharing your email. Answer Yes to the second question asking for permission to log your IP publicly.
-
-3. View the certificate and private key
-```
-cat /etc/letsencrypt/live/blog.asarkar.org/fullchain.pem
-cat /etc/letsencrypt/live/blog.asarkar.org/privkey.pem
-```
 ## License
 
-Copyright 2016-2018 Abhijit Sarkar - Released under the [GPLv3](LICENSE) license.
+Copyright 2016-2020 Abhijit Sarkar - Released under the [GPLv3](LICENSE) license.
